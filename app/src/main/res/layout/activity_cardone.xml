@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/cardbg4"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:textColor="#000"
+        android:textStyle="italic"
+        android:id="@+id/hbd"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_below="@+id/hbd"
+        android:layout_centerHorizontal="true"
+        android:hint="name"
+        android:textColorHint="#000"
+        android:id="@+id/name"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ck1"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cake"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="have a great day dear"
+        android:textAllCaps="true"
+        android:layout_below="@+id/cake"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:id="@+id/wish1"
+        android:textColor="#000"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/wish1"
+        android:textColor="#020202"
+        android:layout_margin="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/wish2"
+        android:text=" Wishing you abundance of fun and glory, Happy Birthday!"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wish2"
+        android:layout_centerHorizontal="true"
+        android:hint="put your wish here"
+        android:textColorHint="#f70101"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hehe"
+        android:layout_below="@+id/hbd"
+        android:layout_marginLeft="10dp"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ohh"
+        android:layout_below="@+id/hbd"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
