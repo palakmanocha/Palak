@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/cardbg6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Many Many Happy Returns"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:id="@+id/am"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Of The Day"
+        android:layout_below="@+id/am"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAPPY BIRTHDAY"
+        android:textColor="#fd0127"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:id="@+id/pm"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_below="@+id/pm"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColorHint="#fa002a"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:id="@+id/pv"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/pcake1"
+        android:layout_above="@+id/pm"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hope your special day, brings you all that your heart desires!"
+        android:layout_below="@+id/pv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:id="@+id/sm"
+        />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:hint="write your ish here"
+        android:layout_below="@+id/sm"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rm"
+        />
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/b1"
+        android:layout_toLeftOf="@+id/rm"
+        android:layout_below="@+id/sm"
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/b1"
+        android:layout_toRightOf="@+id/rm"
+        android:layout_below="@+id/sm"
+
+    />
+    <Button
+        android:id="@+id/btn_n2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Next Card"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/btn_s2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Click to Save"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorAccent"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
